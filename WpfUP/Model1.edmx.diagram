@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="be5bb6e73e4d408cabebbfbce261188d" Name="Diagram1">
+        <EntityTypeShape EntityType="BookPlatformDBModel.AuthorRoleRequests" Width="1.5" PointX="5.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookPlatformDBModel.BookGenres" Width="1.5" PointX="7.5" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookPlatformDBModel.Books" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookPlatformDBModel.Complaints" Width="1.5" PointX="7.5" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookPlatformDBModel.Genres" Width="1.5" PointX="5.25" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookPlatformDBModel.ReadingLists" Width="1.5" PointX="10.5" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookPlatformDBModel.Reviews" Width="1.5" PointX="7.5" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookPlatformDBModel.Roles" Width="1.5" PointX="0.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookPlatformDBModel.UnfreezeRequests" Width="1.5" PointX="10.5" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookPlatformDBModel.Users" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <AssociationConnector Association="BookPlatformDBModel.FK_AuthorRoleRequests_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="BookPlatformDBModel.FK_BookGenres_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="BookPlatformDBModel.FK_BookGenres_Genres" ManuallyRouted="false" />
+        <AssociationConnector Association="BookPlatformDBModel.FK_Books_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="BookPlatformDBModel.FK_Complaints_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="BookPlatformDBModel.FK_ReadingLists_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="BookPlatformDBModel.FK_Reviews_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="BookPlatformDBModel.FK_UnfreezeRequests_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="BookPlatformDBModel.FK_Complaints_Reviews" ManuallyRouted="false" />
+        <AssociationConnector Association="BookPlatformDBModel.FK_Complaints_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="BookPlatformDBModel.FK_ReadingLists_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="BookPlatformDBModel.FK_Reviews_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="BookPlatformDBModel.FK_Users_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="BookPlatformDBModel.FK_UnfreezeRequests_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
